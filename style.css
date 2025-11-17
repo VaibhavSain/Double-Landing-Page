@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.box1 {
+  height: 100vh;
+  cursor: pointer;
+  position: relative;
+  width: 50%;
+  background-color: #ffc0cb;
+  padding-top: 30px;
+}
+.box1:hover {
+  width: 70%;
+  transition: 2s;
+}
+.box2 {
+  cursor: pointer;
+  height: 100vh;
+  width: 50%;
+  position: relative;
+  background-color: white;
+  padding-top: 30px;
+}
+.box2:hover {
+  width: 70%;
+  transition: 2s;
+}
+.box1 h1 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  background-color: #b2868e;
+}
+.box2 h1 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  background-color: #242630;
+}
+.box1 img {
+  height: 32rem;
+  width: 24rem;
+  transition: 2s;
+
+  margin-left: 120px;
+}
+.box2 img {
+  height: 32rem;
+  width: 24rem;
+  transition: 2s;
+  margin-left: 120px;
+}
+.box1 button {
+  background-color: #000000;
+  color: white;
+  position: absolute;
+  outline: none;
+  border: 2px solid white;
+  font-size: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  left: 40%;
+  top: 40%;
+  padding-bottom: 10px;
+}
+.box1 button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.box2 button {
+  background-color: #000000;
+  color: white;
+  position: absolute;
+  outline: none;
+  border: 2px solid white;
+  font-size: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  left: 40%;
+  top: 40%;
+  padding-bottom: 10px;
+}
+.box2 button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
